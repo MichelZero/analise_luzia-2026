@@ -3,22 +3,14 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 # 1. Lendo os dados
-df = pd.read_csv('dados/dados_03.csv', sep=',')
-df['Contagem'] = df['Contagem'].fillna(250)
+df = pd.read_csv('dados/dados_01.csv', sep=',')
+df['Tempo_h'] = 'T' + df['Tempo_h'].astype(str)
 
-# ==========================================
-# 2. A CORREÇÃO DEFINITIVA DO EIXO X (TT0):
-# Primeiro, transforma em texto e apaga qualquer 'T' que já exista lá
-df['Tempo_h'] = df['Tempo_h'].astype(str).str.replace('T', '')
-# Depois, coloca um único 'T'  na frente do número
-df['Tempo_h'] = 'T' + df['Tempo_h']
-# ==========================================
-
-# 3. Estilo
+# 2. Estilo
 sns.set_theme(style="white")
 plt.figure(figsize=(10, 6))
 
-# 4. Gerando o gráfico
+# 3. Gerando o gráfico
 ax = sns.lineplot(
     data=df, 
     x='Tempo_h', 
@@ -30,12 +22,17 @@ ax = sns.lineplot(
     errorbar=None
 )
 
-# 5. O truque dos Incontáveis, que adiciona uma linha pontilhada vermelha no teto (Y = 240) e escreve "Placas Incontáveis" bem em cima dessa linha
+# ==========================================================
+# O TRUQUE DE MESTRE PARA OS INCONTÁVEIS:
+# Adiciona uma linha pontilhada vermelha no teto (Y = 240)
 plt.axhline(y=240, color='red', linestyle='--', linewidth=1.5, alpha=0.5)
+
+# Escreve "Placas Incontáveis" bem em cima dessa linha
 plt.text(x=3.5, y=245, s='Limite de Contagem (Incontáveis)', 
          color='red', fontsize=10, fontstyle='italic', ha='center')
+# ==========================================================
 
-# 6. Estética 
+# 4. Estética
 ax.grid(axis='y', color='lightgray', linestyle='-')
 sns.despine()
 
@@ -43,10 +40,10 @@ plt.title('Efeito dos tratamentos sobre a cinética de crescimento', fontsize=14
 plt.xlabel('Tempos (h)', fontsize=12)
 plt.ylabel('Número de microrganismos viáveis\n(UFC/mL)', fontsize=12)
 
-# Força o gráfico a ir um pouco mais alto (até 260) para caber o texto 
+# Força o gráfico a ir um pouco mais alto (até 260) para caber o texto
 plt.ylim(-10, 260) 
 
-# 7. Legenda 
+# 5. Legenda
 plt.legend(
     title=None,                   
     loc='upper center',           
