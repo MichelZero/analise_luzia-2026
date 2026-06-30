@@ -40,5 +40,6 @@ O script lê o arquivo `dados/dados_03.csv`, trata a coluna de tempo e plota a c
 ## Observações
 
 - O gráfico adiciona uma linha de limite em `Y = 240` com o rótulo "Limite de Contagem (Incontáveis)".
+- Atenção: quando as células fúngicas entram na fase logarítmica/exponencial avançada de crescimento (como nos grupos Controle e nas concentrações sub-inibitórias), as colônias se tornam incontáveis na placa e o valor é truncado no limite superior do gráfico. Isso afeta diretamente a variabilidade dos dados no tempo de 24h para fins de testes estatísticos.
 - Se desejar trabalhar com outros arquivos de dados, adapte o caminho no script ou crie novos scripts em `rascunho/`.
 
