@@ -45,7 +45,7 @@ ax.text(3, 122, '#', ha='center', va='bottom', fontsize=13, fontweight='bold', c
 
 # --- EXEMPLOS PARA O TEMPO T24 (Posição X = 4) ---
 # Se um ponto estiver colado no teto (250) e for significativamente diferente:
-ax.text(4, 253, '#', ha='center', va='bottom', fontsize=13, fontweight='bold', color='black')
+ax.text(4, 256, '#', ha='center', va='bottom', fontsize=13, fontweight='bold', color='black')
 
 # Se a maior dose barrou o crescimento e ficou no chão (Y = 0):
 ax.text(4, 6, '*#', ha='center', va='bottom', fontsize=13, fontweight='bold', color='purple')
