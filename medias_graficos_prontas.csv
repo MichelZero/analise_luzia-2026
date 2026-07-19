@@ -1,0 +1,61 @@
+Grafico,Condicao,Tempo_h,UFC
+CIM,Controle de Crescimento,0,1917
+CIM,Controle de Crescimento,2,2000
+CIM,Controle de Crescimento,4,4000
+CIM,Controle de Crescimento,8,6667
+CIM,Controle de Crescimento,24,45000
+CIM,Controle do Veículo,0,1712
+CIM,Controle do Veículo,2,1734
+CIM,Controle do Veículo,4,3000
+CIM,Controle do Veículo,8,5200
+CIM,Controle do Veículo,24,45000
+CIM,EAO,0,1617
+CIM,EAO,2,1062
+CIM,EAO,4,2056
+CIM,EAO,8,4800
+CIM,EAO,24,45000
+CIM,Nistatina,0,578
+CIM,Nistatina,2,245
+CIM,Nistatina,4,0
+CIM,Nistatina,8,217
+CIM,Nistatina,24,34
+2XCIM,Controle de Crescimento,0,1917
+2XCIM,Controle de Crescimento,2,2000
+2XCIM,Controle de Crescimento,4,4000
+2XCIM,Controle de Crescimento,8,6667
+2XCIM,Controle de Crescimento,24,45000
+2XCIM,Controle do Veículo,0,1712
+2XCIM,Controle do Veículo,2,1734
+2XCIM,Controle do Veículo,4,3000
+2XCIM,Controle do Veículo,8,5200
+2XCIM,Controle do Veículo,24,45000
+2XCIM,EAO,0,878
+2XCIM,EAO,2,723
+2XCIM,EAO,4,1134
+2XCIM,EAO,8,3039
+2XCIM,EAO,24,45000
+2XCIM,Nistatina,0,495
+2XCIM,Nistatina,2,62
+2XCIM,Nistatina,4,0
+2XCIM,Nistatina,8,106
+2XCIM,Nistatina,24,12
+4XCIM,Controle de Crescimento,0,1917
+4XCIM,Controle de Crescimento,2,2000
+4XCIM,Controle de Crescimento,4,4000
+4XCIM,Controle de Crescimento,8,6667
+4XCIM,Controle de Crescimento,24,45000
+4XCIM,Controle do Veículo,0,1712
+4XCIM,Controle do Veículo,2,1734
+4XCIM,Controle do Veículo,4,3000
+4XCIM,Controle do Veículo,8,5200
+4XCIM,Controle do Veículo,24,45000
+4XCIM,EAO,0,634
+4XCIM,EAO,2,523
+4XCIM,EAO,4,690
+4XCIM,EAO,8,1050
+4XCIM,EAO,24,45000
+4XCIM,Nistatina,0,318
+4XCIM,Nistatina,2,0
+4XCIM,Nistatina,4,0
+4XCIM,Nistatina,8,0
+4XCIM,Nistatina,24,6

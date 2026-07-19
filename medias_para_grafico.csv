@@ -1,0 +1,61 @@
+Grafico,Condicao,Tempo_h,UFC_bruto
+2XCIM,Controle de Crescimento,0,1916.6666666666667
+2XCIM,Controle de Crescimento,2,2000.0
+2XCIM,Controle de Crescimento,4,4000.0
+2XCIM,Controle de Crescimento,8,6666.111111111111
+2XCIM,Controle de Crescimento,24,
+2XCIM,Controle do Veículo,0,1666.6666666666667
+2XCIM,Controle do Veículo,2,1888.888888888889
+2XCIM,Controle do Veículo,4,1866.6666666666667
+2XCIM,Controle do Veículo,8,10194.444444444445
+2XCIM,Controle do Veículo,24,
+2XCIM,Limoneno,0,877.7777777777778
+2XCIM,Limoneno,2,700.0
+2XCIM,Limoneno,4,1133.3333333333333
+2XCIM,Limoneno,8,3038.8888888888887
+2XCIM,Limoneno,24,
+2XCIM,Nistatina,0,675.0
+2XCIM,Nistatina,2,141.66666666666666
+2XCIM,Nistatina,4,0.0
+2XCIM,Nistatina,8,158.33333333333334
+2XCIM,Nistatina,24,16.666666666666668
+4XCIM,Controle de Crescimento,0,1916.6666666666667
+4XCIM,Controle de Crescimento,2,2000.0
+4XCIM,Controle de Crescimento,4,4000.0
+4XCIM,Controle de Crescimento,8,6666.111111111111
+4XCIM,Controle de Crescimento,24,
+4XCIM,Controle do Veículo,0,1666.6666666666667
+4XCIM,Controle do Veículo,2,1888.888888888889
+4XCIM,Controle do Veículo,4,1866.6666666666667
+4XCIM,Controle do Veículo,8,10194.444444444445
+4XCIM,Controle do Veículo,24,
+4XCIM,Limoneno,0,627.7777777777778
+4XCIM,Limoneno,2,522.2222222222222
+4XCIM,Limoneno,4,688.8888888888889
+4XCIM,Limoneno,8,1050.0
+4XCIM,Limoneno,24,
+4XCIM,Nistatina,0,458.3333333333333
+4XCIM,Nistatina,2,0.0
+4XCIM,Nistatina,4,0.0
+4XCIM,Nistatina,8,0.0
+4XCIM,Nistatina,24,0.0
+CIM,Controle de Crescimento,0,1916.6666666666667
+CIM,Controle de Crescimento,2,2000.0
+CIM,Controle de Crescimento,4,4000.0
+CIM,Controle de Crescimento,8,6666.111111111111
+CIM,Controle de Crescimento,24,
+CIM,Controle do Veículo,0,1716.6666666666667
+CIM,Controle do Veículo,2,1883.3333333333333
+CIM,Controle do Veículo,4,1508.3333333333333
+CIM,Controle do Veículo,8,10725.0
+CIM,Controle do Veículo,24,
+CIM,Limoneno,0,1733.3333333333333
+CIM,Limoneno,2,1258.3333333333333
+CIM,Limoneno,4,2825.0
+CIM,Limoneno,8,9241.666666666666
+CIM,Limoneno,24,
+CIM,Nistatina,0,558.3333333333334
+CIM,Nistatina,2,383.3333333333333
+CIM,Nistatina,4,0.0
+CIM,Nistatina,8,650.0
+CIM,Nistatina,24,33.333333333333336
