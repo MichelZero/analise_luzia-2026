@@ -1,0 +1,93 @@
+RELATÓRIO ESTATÍSTICO: ANÁLISE DE CINÉTICA DE CRESCIMENTO
+================================================================================
+
+ANÁLISE DO GRÁFICO: CIM
+--------------------------------------------------
+
+TABELA ANOVA DE DUAS VIAS (Two-way ANOVA)
+                                  sum_sq    df              F        PR(>F)
+C(Tempo_h_cat)              9.553731e+09   4.0  110636.326695  2.776143e-80
+C(Condicao)                 1.420613e+09   3.0   21935.074735  2.407512e-64
+C(Tempo_h_cat):C(Condicao)  3.238518e+09  12.0   12501.143980  1.742017e-67
+Residual                    8.635257e+05  40.0            NaN           NaN
+
+INTERPRETAÇÃO DOS RESULTADOS DA ANOVA
+A Análise de Variância (ANOVA) de duas vias foi aplicada para avaliar os efeitos do Tempo, da Condição e da Interação entre Tempo e Condição sobre o número de UFC/mL.
+
+* Efeito do Tempo (p = 2.78e-80): Apresentou significância estatística extremamente alta (p < 0.001).
+* Efeito da Condição (p = 2.41e-64): Apresentou significância estatística (p < 0.001).
+* Interação Tempo vs. Condição (p = 1.74e-67): Apresentou significância estatística (p < 0.001).
+
+PÓS-TESTE DE TUKEY (Comparações Múltiplas)
+* `*` (Asterisco): Diferença significativa (p < 0.05) em relação ao Controle do Veículo.
+* `#` (Sustenido): Diferença significativa (p < 0.05) em relação ao Controle de Crescimento.
+
+Resultado das comparações:
+* Tempo 0h: Houve diferenças significativas entre os tratamentos e os controles (p < 0.05).
+* Tempo 2h: Houve diferenças significativas entre os tratamentos e os controles (p < 0.05).
+* Tempo 4h: Houve diferenças significativas entre os tratamentos e os controles (p < 0.05).
+* Tempo 8h: Houve diferenças significativas entre os tratamentos e os controles (p < 0.05).
+* Tempo 24h: Houve diferenças significativas entre os tratamentos e os controles (p < 0.05).
+
+================================================================================
+
+ANÁLISE DO GRÁFICO: 2XCIM
+--------------------------------------------------
+
+TABELA ANOVA DE DUAS VIAS (Two-way ANOVA)
+                                  sum_sq    df             F        PR(>F)
+C(Tempo_h_cat)              9.696762e+09   4.0  83079.181674  8.536501e-78
+C(Condicao)                 1.389495e+09   3.0  15873.082631  1.545476e-61
+C(Tempo_h_cat):C(Condicao)  3.279861e+09  12.0   9366.980874  5.585934e-65
+Residual                    1.167171e+06  40.0           NaN           NaN
+
+INTERPRETAÇÃO DOS RESULTADOS DA ANOVA
+A Análise de Variância (ANOVA) de duas vias foi aplicada para avaliar os efeitos do Tempo, da Condição e da Interação entre Tempo e Condição sobre o número de UFC/mL.
+
+* Efeito do Tempo (p = 8.54e-78): Apresentou significância estatística extremamente alta (p < 0.001).
+* Efeito da Condição (p = 1.55e-61): Apresentou significância estatística (p < 0.001).
+* Interação Tempo vs. Condição (p = 5.59e-65): Apresentou significância estatística (p < 0.001).
+
+PÓS-TESTE DE TUKEY (Comparações Múltiplas)
+* `*` (Asterisco): Diferença significativa (p < 0.05) em relação ao Controle do Veículo.
+* `#` (Sustenido): Diferença significativa (p < 0.05) em relação ao Controle de Crescimento.
+
+Resultado das comparações:
+* Tempo 0h: Houve diferenças significativas entre os tratamentos e os controles (p < 0.05).
+* Tempo 2h: Houve diferenças significativas entre os tratamentos e os controles (p < 0.05).
+* Tempo 4h: Houve diferenças significativas entre os tratamentos e os controles (p < 0.05).
+* Tempo 8h: Houve diferenças significativas entre os tratamentos e os controles (p < 0.05).
+* Tempo 24h: Houve diferenças significativas entre os tratamentos e os controles (p < 0.05).
+
+================================================================================
+
+ANÁLISE DO GRÁFICO: 4XCIM
+--------------------------------------------------
+
+TABELA ANOVA DE DUAS VIAS (Two-way ANOVA)
+                                  sum_sq    df              F        PR(>F)
+C(Tempo_h_cat)              9.799855e+09   4.0  141431.086480  2.044930e-82
+C(Condicao)                 1.382185e+09   3.0   26596.838153  5.113255e-66
+C(Tempo_h_cat):C(Condicao)  3.316535e+09  12.0   15954.696517  1.327080e-69
+Residual                    6.929067e+05  40.0            NaN           NaN
+
+INTERPRETAÇÃO DOS RESULTADOS DA ANOVA
+A Análise de Variância (ANOVA) de duas vias foi aplicada para avaliar os efeitos do Tempo, da Condição e da Interação entre Tempo e Condição sobre o número de UFC/mL.
+
+* Efeito do Tempo (p = 2.04e-82): Apresentou significância estatística extremamente alta (p < 0.001).
+* Efeito da Condição (p = 5.11e-66): Apresentou significância estatística (p < 0.001).
+* Interação Tempo vs. Condição (p = 1.33e-69): Apresentou significância estatística (p < 0.001).
+
+PÓS-TESTE DE TUKEY (Comparações Múltiplas)
+* `*` (Asterisco): Diferença significativa (p < 0.05) em relação ao Controle do Veículo.
+* `#` (Sustenido): Diferença significativa (p < 0.05) em relação ao Controle de Crescimento.
+
+Resultado das comparações:
+* Tempo 0h: Houve diferenças significativas entre os tratamentos e os controles (p < 0.05).
+* Tempo 2h: Houve diferenças significativas entre os tratamentos e os controles (p < 0.05).
+* Tempo 4h: Houve diferenças significativas entre os tratamentos e os controles (p < 0.05).
+* Tempo 8h: Houve diferenças significativas entre os tratamentos e os controles (p < 0.05).
+* Tempo 24h: Houve diferenças significativas entre os tratamentos e os controles (p < 0.05).
+
+================================================================================
+
